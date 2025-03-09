@@ -1,3 +1,8 @@
+using Company.G03.BLL.Interfaces;
+using Company.G03.BLL.Repository;
+using Company.G03.DAL.Data.Contexts;
+using Microsoft.EntityFrameworkCore;
+
 namespace Company.G03.PL
 {
     public class Program
@@ -8,9 +13,15 @@ namespace Company.G03.PL
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddDbContext<CompanyDbContext>(option =>
+            {
+                option.UseSqlServer("Server = DESKTOP-VSQSLHO\\MSSQLSERVER2 ; Database = CompanyMVC; Trusted_Connection = True; TrustServerCertificate = True");
+
+            });
+            builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
 
             var app = builder.Build();
-
+           
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
