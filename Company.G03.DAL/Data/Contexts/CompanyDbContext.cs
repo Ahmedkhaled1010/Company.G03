@@ -19,5 +19,6 @@ namespace Company.G03.DAL.Data.Contexts
         //    optionsBuilder.UseSqlServer();
         //}
       public  DbSet<Department> departments {  get; set; }
+        public DbSet<Employee> employees { get; set; }
     }
 }
