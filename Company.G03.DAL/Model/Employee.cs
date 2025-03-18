@@ -11,11 +11,11 @@ namespace Company.G03.DAL.Model
    public class Employee
     {
         public int Id { get; set; }
-        [Required]
-        [MaxLength(50)]
         public string Name { get; set; }
+        [Range(22,35,ErrorMessage ="Age Must be In Range From 22 To 35")]
         public int Age { get; set; }
         public string Address { get; set; }
+        [DataType(DataType.Currency)]
         public decimal Salary { get; set; }
         public bool IsActive { get; set; }
         [EmailAddress]

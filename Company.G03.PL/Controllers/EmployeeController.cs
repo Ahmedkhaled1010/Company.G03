@@ -15,20 +15,13 @@ namespace Company.G03.PL.Controllers
         private readonly IDepartmentRepository _department;
         private readonly IMapper _mapper;
 
-        public EmployeeController(IEmployeeRepository employee,IDepartmentRepository department,IMapper mapper)
         {
             _employee = employee;
            _department = department;
             _mapper = mapper;
         }
-        public IActionResult Index(string search)
         {
-            IEnumerable<Employee> Employee;
-            if (string.IsNullOrEmpty(search))
-            {
-                 Employee = _employee.GetAll();
-              
-            }
+        }
             else
             {
                  Employee = _employee.GetEmployeesByName(search);
@@ -46,15 +39,11 @@ namespace Company.G03.PL.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(EmployeeViewModel employeeVM)
         {
             if (ModelState.IsValid)
             {
-                var MappedEmployee = _mapper.Map<EmployeeViewModel,Employee>(employeeVM);
-                _employee.Add(MappedEmployee);
                 return RedirectToAction(nameof(Index));
             }
-            return View(employeeVM);
         }
         public IActionResult Details(int? id) 
         {
@@ -65,9 +54,6 @@ namespace Company.G03.PL.Controllers
             {
                 return NotFound();
             }
-            var MappedEmployee = _mapper.Map<Employee, EmployeeViewModel>(emp);
-
-            return View(MappedEmployee);
         }
         public IActionResult Edit (int? id)
         {
@@ -78,14 +64,9 @@ namespace Company.G03.PL.Controllers
             {
                 return NotFound();
             }
-            var MappedEmployee = _mapper.Map<Employee, EmployeeViewModel>(emp);
-
-            return View(MappedEmployee);
         }
         [HttpPost]
-        public IActionResult Edit(EmployeeViewModel employeeVm, [FromRoute] int id)
         {
-            if (id !=employeeVm.Id)
             {
                 return BadRequest();
             }
@@ -93,8 +74,6 @@ namespace Company.G03.PL.Controllers
             {
                 try
                 {
-                    var MappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVm);
-                    _employee.Update(MappedEmployee);
                     return RedirectToAction(nameof(Index));
                 }
                 catch(System.Exception ex)
@@ -102,7 +81,6 @@ namespace Company.G03.PL.Controllers
                     ModelState.AddModelError(string.Empty,ex.Message);
                 }
             }
-            return View(employeeVm);
         }
 
         public IActionResult Delete(int? id)
@@ -114,27 +92,19 @@ namespace Company.G03.PL.Controllers
             var emp =_employee.GetById(id.Value);
             if(emp is null)
                 return NotFound();
-            var MappedEmployee = _mapper.Map<Employee, EmployeeViewModel>(emp);
-
-            return View(MappedEmployee);
         }
         [HttpPost]
-        public IActionResult Delete(EmployeeViewModel employeeVM, [FromRoute] int id)
         {
-            if (id != employeeVM.Id)
             {
                 return BadRequest();
             }
             try
             {
-                var MappedEmployee = _mapper.Map<EmployeeViewModel, Employee>(employeeVM);
-                _employee.Delete(MappedEmployee);
                 return RedirectToAction(nameof(Index));
             }
             catch (System.Exception ex)
             {
                 ModelState.AddModelError(string.Empty, ex.Message);
-                return View(employeeVM);
             }
         }
     }

@@ -1,5 +1,4 @@
-﻿@model IEnumerable<EmployeeViewModel>
-@{
+﻿@{
     ViewData["Title"] = "Index";
     string VDataMessage = @ViewData["message"] as string;
     string VBigMessage = @ViewBag.x;
@@ -82,16 +81,14 @@
                         @emp.Age
                     </td>
                     <td>
-                        @Html.DisplayFor(e=>emp.Salary)
                     </td>
-                    <td>
+                     <td>
                         @Html.DisplayFor(e => emp.Department.Name)
                     </td>
                      <td>
                         @emp.Address
                     </td>
                     <td>
-                        @Html.DisplayFor(e=>emp.Email)
                     </td>
                     <td>
                         @emp.PhoneNumber
@@ -100,18 +97,9 @@
                         @emp.HireDate
                     </td>
                     <td>
-                        @if(emp.IsActive==true)
-                        {
-                            <i class="fa-solid fa-circle" style="color:green"></i>
-                        }
-                        else
-                        {
-                            <i class="fa-solid fa-circle" style="color:red"></i>
-
-                        }
                     </td>
-                    <partial name="_ButtonPartialView" Model="@emp.Id"></partial>
 
+                    </td>
                 </tr>
             }
         </tbody>

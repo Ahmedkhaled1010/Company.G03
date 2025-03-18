@@ -20,8 +20,7 @@ namespace Company.G03.PL
 
             });
             builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-            builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
-            builder.Services.AddAutoMapper(m=>m.AddProfile(new EmployeeProfile()));
+
             var app = builder.Build();
            
             // Configure the HTTP request pipeline.
