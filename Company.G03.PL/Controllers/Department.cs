@@ -26,7 +26,11 @@ namespace Company.G03.PL.Controllers
         {
             if (ModelState.IsValid)
             {
-                _DepartmentRepository.Add(department);
+               int res= _DepartmentRepository.Add(department);
+                if (res>0)
+                {
+                    TempData["message"] = "Department Is Created";
+                }
                 return RedirectToAction(nameof(Index));
                 
             }
@@ -85,10 +89,22 @@ namespace Company.G03.PL.Controllers
             return View(dept);
         }
         [HttpPost]
-        public IActionResult Delete(Department department)
+        public IActionResult Delete(Department department, [FromRoute] int id)
         {
-            _DepartmentRepository.Delete(department);
-            return RedirectToAction(nameof(Index));
+            if (id !=department.Id)
+            {
+                return BadRequest();
+            }
+            try
+            {
+                _DepartmentRepository.Delete(department);
+                return RedirectToAction(nameof(Index));
+            }
+            catch(System.Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+                return View(department);
+            }
         }
     }
 }

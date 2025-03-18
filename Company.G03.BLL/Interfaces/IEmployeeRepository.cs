@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Company.G03.BLL.Interfaces
 {
-    public interface IDepartmentRepository:IGenericRepository<Department>
+    public interface IEmployeeRepository:IGenericRepository<Employee>
     {
-        
+       IQueryable<Employee> GetEmployeesByAddress(string address);
+        IQueryable<Employee> GetEmployeesByName(string search);
     }
 }

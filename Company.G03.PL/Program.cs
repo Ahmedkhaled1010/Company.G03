@@ -1,6 +1,7 @@
 using Company.G03.BLL.Interfaces;
 using Company.G03.BLL.Repository;
 using Company.G03.DAL.Data.Contexts;
+using Company.G03.PL.MappingProfiles;
 using Microsoft.EntityFrameworkCore;
 
 namespace Company.G03.PL
@@ -15,11 +16,12 @@ namespace Company.G03.PL
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<CompanyDbContext>(option =>
             {
-                option.UseSqlServer("Server = DESKTOP-VSQSLHO\\MSSQLSERVER2 ; Database = CompanyMVC; Trusted_Connection = True; TrustServerCertificate = True");
+                option.UseSqlServer("Server = . ; Database = CompanyMVC; Trusted_Connection = True; TrustServerCertificate = True");
 
             });
             builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
-
+            builder.Services.AddScoped<IEmployeeRepository,EmployeeRepository>();
+            builder.Services.AddAutoMapper(m=>m.AddProfile(new EmployeeProfile()));
             var app = builder.Build();
            
             // Configure the HTTP request pipeline.
