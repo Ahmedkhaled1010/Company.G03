@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Me\\Company.G03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|c:\\me\\company.g03\\company.g03.pl\\views\\employee\\partialviews\\_createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|solutionrelative:company.g03.pl\\views\\employee\\partialviews\\_createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|c:\\me\\company.g03\\company.g03.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|c:\\me\\company.g03\\company.g03.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|solutionrelative:company.g03.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|c:\\me\\company.g03\\company.g03.pl\\controllers\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|solutionrelative:company.g03.pl\\controllers\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|c:\\me\\company.g03\\company.g03.bll\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|c:\\me\\company.g03\\company.g03.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|c:\\me\\company.g03\\company.g03.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|c:\\me\\company.g03\\company.g03.bll\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|c:\\me\\company.g03\\company.g03.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_CreateEditPartialView.cshtml",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "RelativeDocumentMoniker": "Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "RelativeToolTip": "Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T08:49:34.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAIwIMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:06:20.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.PL\\Controllers\\Department.cs",
+              "RelativeDocumentMoniker": "Company.G03.PL\\Controllers\\Department.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.PL\\Controllers\\Department.cs",
+              "RelativeToolTip": "Company.G03.PL\\Controllers\\Department.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwF0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:02:18.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:52:29.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:30:45.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:49.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:47.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:45.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Me\\Company.G03\\Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:24:20.627Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

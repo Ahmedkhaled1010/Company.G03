@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\.vs\\Company.G03\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\Company.G03\\config\\applicationhost.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.pl\\views\\employee\\partialviews\\_createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|solutionrelative:company.g03.pl\\views\\employee\\partialviews\\_createeditpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|solutionrelative:company.g03.pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.pl\\controllers\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5293E9C2-2DD8-43B1-9036-2E95E5D24642}|Company.G03.PL\\Company.G03.PL.csproj|solutionrelative:company.g03.pl\\controllers\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.bll\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.bll\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|d:\\study\\route\\backend\\c43\\ef\\efcore assignment solution\\efcore assignment solution\\company.g03\\company.g03.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7403CE50-72F9-4FD6-B2CA-B5A08A347EAB}|Company.G03.BLL\\Company.G03.BLL.csproj|solutionrelative:company.g03.bll\\interfaces\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "applicationhost.config",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\.vs\\Company.G03\\config\\applicationhost.config",
+              "RelativeDocumentMoniker": ".vs\\Company.G03\\config\\applicationhost.config",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\.vs\\Company.G03\\config\\applicationhost.config",
+              "RelativeToolTip": ".vs\\Company.G03\\config\\applicationhost.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-21T19:01:44.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_CreateEditPartialView.cshtml",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "RelativeDocumentMoniker": "Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "RelativeToolTip": "Company.G03.PL\\Views\\Employee\\PartialViews\\_CreateEditPartialView.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T08:49:34.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Company.G03.PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAIwIMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:06:20.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.PL\\Controllers\\Department.cs",
+              "RelativeDocumentMoniker": "Company.G03.PL\\Controllers\\Department.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.PL\\Controllers\\Department.cs",
+              "RelativeToolTip": "Company.G03.PL\\Controllers\\Department.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwF0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T08:02:18.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wBcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:52:29.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:30:45.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:49.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:47.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IDepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:29:45.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "Company.G03.BLL\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T07:24:20.627Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
