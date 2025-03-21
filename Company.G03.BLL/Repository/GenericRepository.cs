@@ -17,36 +17,26 @@ namespace Company.G03.BLL.Repository
         {
             _companyDbContext = companyDbContext;
         }
-        public async Task AddAsync(T item)
         {
-           await _companyDbContext.AddAsync(item);
-     
         }
 
-        public void Delete(T item)
         {
             _companyDbContext.Remove(item);
+            return _companyDbContext.SaveChanges();
         }
 
-        public async Task<T> GetByIdAsync(int id)
         {
-            return await  _companyDbContext.Set<T>().FindAsync(id);
         }
 
-        public async Task<IEnumerable<T>> GetAllAsync()
         {
             if (typeof(T) ==typeof(Employee))
             {
-                return  (IEnumerable<T>) await _companyDbContext.employees.Include(e=>e.Department).ToListAsync();
 
             }
-            return await _companyDbContext.Set<T>().ToListAsync();
         }
 
-        public void Update(T item)
         {
             _companyDbContext.Update(item);
-          
         }
     }
 }

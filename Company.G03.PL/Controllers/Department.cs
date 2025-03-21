@@ -26,12 +26,7 @@ namespace Company.G03.PL.Controllers
         {
             if (ModelState.IsValid)
             {
-               await unitOfWork.DepartmentRepository.AddAsync(department);
-                int res = await unitOfWork.CompleteAsync();
-                if (res>0)
-                {
-                    TempData["message"] = "Department Is Created";
-                }
+                _DepartmentRepository.Add(department);
                 return RedirectToAction(nameof(Index));
                 
             }
@@ -91,23 +86,10 @@ namespace Company.G03.PL.Controllers
             return View(dept);
         }
         [HttpPost]
-        public async Task<IActionResult> Delete(Department department, [FromRoute] int id)
+        public IActionResult Delete(Department department)
         {
-            if (id !=department.Id)
-            {
-                return BadRequest();
-            }
-            try
-            {
-                unitOfWork.DepartmentRepository.Delete(department);
-               await unitOfWork.CompleteAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            catch(System.Exception ex)
-            {
-                ModelState.AddModelError(string.Empty, ex.Message);
-                return View(department);
-            }
+            _DepartmentRepository.Delete(department);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

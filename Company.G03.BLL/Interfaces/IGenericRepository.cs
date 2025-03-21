@@ -9,10 +9,5 @@ namespace Company.G03.BLL.Interfaces
     public interface IGenericRepository<T>
 
     {
-        Task<IEnumerable<T>> GetAllAsync();
-        Task<T> GetByIdAsync(int id);
-        Task AddAsync(T item);
-        void Delete(T item);
-        void Update(T item);
     }
 }

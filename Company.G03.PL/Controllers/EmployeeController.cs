@@ -12,13 +12,10 @@ namespace Company.G03.PL.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly IUnitOfWork unitOfWork;
         private readonly IMapper _mapper;
 
         public EmployeeController(IUnitOfWork unitOfWork,IMapper mapper)
         {
-          
-            this.unitOfWork = unitOfWork;
             _mapper = mapper;
         }
         public async Task<IActionResult> Index(string search)
@@ -28,19 +25,16 @@ namespace Company.G03.PL.Controllers
             {
                  Employee =await unitOfWork.EmployeeRepository.GetAllAsync();
               
-            }
+        }
             else
             {
-                 Employee = unitOfWork.EmployeeRepository.GetEmployeesByName(search);
                
             }
             var EmployeeMapped = _mapper.Map<IEnumerable<Employee>, IEnumerable<EmployeeViewModel>>(Employee);
             return View(EmployeeMapped);
 
         }
-        public async Task<IActionResult> Create()
         {
-            ViewBag.departments = await unitOfWork.DepartmentRepository.GetAllAsync();
             
 
             return View();
@@ -58,11 +52,9 @@ namespace Company.G03.PL.Controllers
             }
             return View(employeeVM);
         }
-        public async Task<IActionResult> Details(int? id) 
         {
             if (id is null)
                 return BadRequest();
-            var emp = await unitOfWork.EmployeeRepository.GetByIdAsync(id.Value);
             if (emp is null)
             {
                 return NotFound();
@@ -71,11 +63,9 @@ namespace Company.G03.PL.Controllers
 
             return View(MappedEmployee);
         }
-        public async Task<IActionResult> Edit (int? id)
         {
             if (id is null)
                 return BadRequest();
-            var emp =await unitOfWork.EmployeeRepository.GetByIdAsync(id.Value);
             if (emp is null)
             {
                 return NotFound();
@@ -115,13 +105,11 @@ namespace Company.G03.PL.Controllers
             return View(employeeVm);
         }
 
-        public async Task<IActionResult> Delete(int? id)
         {
             if (id is null)
             {
                 return BadRequest();
             }
-            var emp =await unitOfWork.EmployeeRepository.GetByIdAsync(id.Value);
             if(emp is null)
                 return NotFound();
             var MappedEmployee = _mapper.Map<Employee, EmployeeViewModel>(emp);
