@@ -582,8 +582,11 @@ C:\Me\Company.G03\Company.G03.PL\obj\Debug\net8.0\Company.G03.PL.genruntimeconfi
 C:\Me\Company.G03\Company.G03.PL\obj\Debug\net8.0\ref\Company.G03.PL.dll
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\AutoMapper.dll
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+<<<<<<< HEAD
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Me\Company.G03\Company.G03.PL\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023

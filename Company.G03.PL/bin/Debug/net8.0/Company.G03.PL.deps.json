@@ -616,6 +616,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.14": {
         "runtime": {
           "lib/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -647,6 +648,8 @@
           }
         }
       },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Microsoft.AspNetCore.Razor.Language/6.0.24": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -1413,6 +1416,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Identity.Core/8.0.14": {
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "8.0.14",
@@ -1439,6 +1443,8 @@
           }
         }
       },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Microsoft.Extensions.Logging/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.2",
@@ -2141,7 +2147,10 @@
       },
       "Company.G03.DAL/1.0.0": {
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.14",
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2"
         },
         "runtime": {
@@ -2537,6 +2546,7 @@
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.14": {
       "type": "package",
       "serviceable": true,
@@ -2558,6 +2568,8 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/8.0.14",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.8.0.14.nupkg.sha512"
     },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
     "Microsoft.AspNetCore.Razor.Language/6.0.24": {
       "type": "package",
       "serviceable": true,
@@ -2803,6 +2815,7 @@
       "path": "microsoft.extensions.dependencymodel/9.0.2",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.2.nupkg.sha512"
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Identity.Core/8.0.14": {
       "type": "package",
       "serviceable": true,
@@ -2817,6 +2830,8 @@
       "path": "microsoft.extensions.identity.stores/8.0.14",
       "hashPath": "microsoft.extensions.identity.stores.8.0.14.nupkg.sha512"
     },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
     "Microsoft.Extensions.Logging/9.0.2": {
       "type": "package",
       "serviceable": true,

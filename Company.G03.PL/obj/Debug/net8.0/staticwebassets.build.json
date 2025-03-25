@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "FNLVRLUVZvGZPFNN7HpOjUFGv381sGpYYQZxKx2Q//8=",
+=======
+  "Hash": "U6NYgRJb4TU1Q7RIbFgAoFbzE/1RPwrvO/IvNO/6mpw=",
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
   "Source": "Company.G03.PL",
   "BasePath": "_content/Company.G03.PL",
   "Mode": "Default",
@@ -59,6 +63,7 @@
       "OriginalItemSpec": "C:\\Me\\Company.G03\\Company.G03.PL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Company.G03.PL.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Me\\Company.G03\\Company.G03.PL\\wwwroot\\css\\AuthStyleSheet.css",
       "SourceId": "Company.G03.PL",
       "SourceType": "Discovered",
@@ -80,6 +85,8 @@
       "OriginalItemSpec": "wwwroot\\css\\AuthStyleSheet.css"
     },
     {
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Identity": "C:\\Me\\Company.G03\\Company.G03.PL\\wwwroot\\css\\site.css",
       "SourceId": "Company.G03.PL",
       "SourceType": "Discovered",
@@ -1569,6 +1576,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "css/AuthStyleSheet.css",
       "AssetFile": "C:\\Me\\Company.G03\\Company.G03.PL\\wwwroot\\css\\AuthStyleSheet.css",
       "Selectors": [],
@@ -1651,6 +1659,8 @@
       ]
     },
     {
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Route": "css/site.c2tiyv64ts.css",
       "AssetFile": "C:\\Me\\Company.G03\\Company.G03.PL\\wwwroot\\css\\site.css",
       "Selectors": [],

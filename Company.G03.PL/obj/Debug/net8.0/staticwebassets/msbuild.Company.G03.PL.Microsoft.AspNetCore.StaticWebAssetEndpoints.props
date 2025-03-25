@@ -12,6 +12,7 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CW7MGHzzzKioD1V49AvZN2y0K/2illgfLVNgi97NqI0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CW7MGHzzzKioD1V49AvZN2y0K/2illgfLVNgi97NqI0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 06 Mar 2025 14:22:40 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+<<<<<<< HEAD
     <StaticWebAssetEndpoint Include="_content/Company.G03.PL/css/AuthStyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\AuthStyleSheet.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -24,6 +25,8 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hv9sow44dx"},{"Name":"integrity","Value":"sha256-Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN\u002BoWemoVAgKk="},{"Name":"label","Value":"_content/Company.G03.PL/css/AuthStyleSheet.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16996"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Awf6u9iQ89C41TWVb8fzk4Ha2xnPlznN\u002BoWemoVAgKk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Mar 2025 09:14:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
     <StaticWebAssetEndpoint Include="_content/Company.G03.PL/css/site.c2tiyv64ts.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

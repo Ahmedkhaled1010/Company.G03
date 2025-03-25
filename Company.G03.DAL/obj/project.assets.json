@@ -47,6 +47,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Cryptography.Internal/8.0.14": {
         "type": "package",
         "compile": {
@@ -93,6 +94,8 @@
           }
         }
       },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -347,6 +350,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+<<<<<<< HEAD
       "Microsoft.Extensions.Identity.Core/8.0.14": {
         "type": "package",
         "dependencies": {
@@ -383,6 +387,8 @@
           }
         }
       },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Microsoft.Extensions.Logging/9.0.2": {
         "type": "package",
         "dependencies": {
@@ -1134,6 +1140,7 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.AspNetCore.Cryptography.Internal/8.0.14": {
       "sha512": "KpD3nbPwt1+hqF4G0X8bYD2typIZN8RD/CMPbMsXC2fwk3P7XN/dr/5vNrxSpXuFSx3h9tEV9Kij6w3Z2Qh+lQ==",
       "type": "package",
@@ -1187,6 +1194,8 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1576,6 +1585,7 @@
         "useSharedDesignerContext.txt"
       ]
     },
+<<<<<<< HEAD
     "Microsoft.Extensions.Identity.Core/8.0.14": {
       "sha512": "45Mn02g7m78suo5AhurzAgRa9LZNYltfeY5mkm2iNYO06AEQ47MjOsi66fYLox5dhcncsreHAcAFC6FA1d3kFg==",
       "type": "package",
@@ -1614,6 +1624,8 @@
         "microsoft.extensions.identity.stores.nuspec"
       ]
     },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
     "Microsoft.Extensions.Logging/9.0.2": {
       "sha512": "loV/0UNpt2bD+6kCDzFALVE63CDtqzPeC0LAetkdhiEr/tTNbvOlQ7CBResH7BQBd3cikrwiBfaHdyHMFUlc2g==",
       "type": "package",
@@ -2977,7 +2989,10 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.14",
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.2"
     ]
   },
@@ -3026,10 +3041,13 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.14, )"
           },
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[9.0.2, )"

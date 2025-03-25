@@ -26,6 +26,7 @@ namespace Company.G03.BLL.Repository
         public void Delete(T item)
         {
             _companyDbContext.Remove(item);
+            return _companyDbContext.SaveChanges();
         }
 
         public async Task<T> GetByIdAsync(int id)

@@ -17,10 +17,13 @@
       "PackagePath": "staticwebassets\\Files\\Images\\a1.jpg"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Me\\Company.G03\\Company.G03.PL\\wwwroot\\css\\AuthStyleSheet.css",
       "PackagePath": "staticwebassets\\css\\AuthStyleSheet.css"
     },
     {
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
       "Id": "C:\\Me\\Company.G03\\Company.G03.PL\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -18,6 +18,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Company.G03.PL.7kmjh2er5h.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\AuthStyleSheet.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Company.G03.PL</SourceId>
@@ -36,6 +37,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\AuthStyleSheet.css'))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))">
       <SourceType>Package</SourceType>
       <SourceId>Company.G03.PL</SourceId>

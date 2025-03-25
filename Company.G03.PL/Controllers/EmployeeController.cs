@@ -30,7 +30,7 @@ namespace Company.G03.PL.Controllers
             {
                  Employee =await unitOfWork.EmployeeRepository.GetAllAsync();
               
-            }
+        }
             else
             {
                  Employee = unitOfWork.EmployeeRepository.GetEmployeesByName(search);

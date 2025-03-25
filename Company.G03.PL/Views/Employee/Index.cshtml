@@ -90,7 +90,11 @@
                     <td>
                         @Html.DisplayFor(e=>emp.Salary)
                     </td>
+<<<<<<< HEAD
                     <td>
+=======
+                     <td>
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
                         @Html.DisplayFor(e => emp.Department.Name)
                     </td>
                      <td>
@@ -116,8 +120,14 @@
 
                         }
                     </td>
+<<<<<<< HEAD
                     <partial name="_ButtonPartialView" Model="@emp.Id.ToString()"></partial>
 
+=======
+                    <partial name="_ButtonPartialView" Model="@emp.Id"></partial>
+
+                    </td>
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
                 </tr>
             }
         </tbody>

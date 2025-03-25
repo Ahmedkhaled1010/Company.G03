@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 wwwroot\css\AuthStyleSheet.css
+=======
+>>>>>>> 870147cee679def5f7a8e233b1497214311e8023
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Files\Images\16564442970028589488173129331200.jpg
