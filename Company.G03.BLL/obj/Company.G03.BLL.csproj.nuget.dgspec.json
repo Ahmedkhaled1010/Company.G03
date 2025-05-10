@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Company.G03.BLL.csproj": {}
+  },
+  "projects": {
+    "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Company.G03.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Company.G03.BLL.csproj",
+        "projectName": "Company.G03.BLL",
+        "projectPath": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\Company.G03.BLL.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.DAL\\Company.G03.DAL.csproj": {
+                "projectPath": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.DAL\\Company.G03.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.DAL\\Company.G03.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.DAL\\Company.G03.DAL.csproj",
+        "projectName": "Company.G03.DAL",
+        "projectPath": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.DAL\\Company.G03.DAL.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Study\\Route\\BackEnd\\C43\\EF\\EFCore Assignment Solution\\EFCore Assignment Solution\\Company.G03\\Company.G03.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
